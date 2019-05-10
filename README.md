@@ -4,16 +4,28 @@ This is a library project to print log.
 # Getting Started
 
 To add LogUtil to your project (Using Android Studio and Gradle): 
-
-  add implementation 'com.github.arifbd:LogUtil:0.1.1' to your build.gradle dependencies block.
   
-  for example:
+  Step 1. Add the JitPack repository to your build file
+  
+  Add it in your root build.gradle at the end of repositories:
   
   ```
-  dependencies {
-    implementation 'com.github.arifbd:LogUtil:0.1.1'
-  }
+  	allprojects {
+  		repositories {
+  			...
+  			maven { url 'https://jitpack.io' }
+  		}
+  	}
   ```
+  
+  Step 2. Add the dependency
+  
+  ```
+  	dependencies {
+  	        implementation 'com.github.arifbd:LogUtil:0.1.1'
+  	}
+  ```
+  
 
 #### In the Log level menu, select one of the following values:
 LogUtil.verbose: Show all log messages (the default).
