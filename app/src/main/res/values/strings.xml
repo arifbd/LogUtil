@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LogUtilExample</string>
+    <string name="log_util">Log Util</string>
+</resources>
