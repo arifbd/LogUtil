@@ -5,13 +5,13 @@ This is a library project to print log.
 
 To add LogUtil to your project (Using Android Studio and Gradle): 
 
-  add implementation 'com.github.arifbd:LogUtil:0.1.0' to your build.gradle dependencies block.
+  add implementation 'com.github.arifbd:LogUtil:0.1.1' to your build.gradle dependencies block.
   
   for example:
   
   ```
   dependencies {
-    implementation 'com.github.arifbd:LogUtil:0.1.0'
+    implementation 'com.github.arifbd:LogUtil:0.1.1'
   }
   ```
 
