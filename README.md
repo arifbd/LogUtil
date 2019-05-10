@@ -1,6 +1,19 @@
 # LogUtil
 This is a library project to print log.
 
+# Getting Started
+
+To add LogUtil to your project (Using Android Studio and Gradle): 
+
+  add implementation 'com.github.arifbd:LogUtil:0.1.0' to your build.gradle dependencies block.
+  
+  for example:
+  
+  ```
+  dependencies {
+    implementation 'com.github.arifbd:LogUtil:0.1.0'
+  }
+  ```
 
 #### In the Log level menu, select one of the following values:
 LogUtil.verbose: Show all log messages (the default).
@@ -17,10 +30,10 @@ LogUtil.wtf: Show issues that the developer expects should never happen.
 
 
 ### Screenshots    
-![alt text](https://raw.githubusercontent.com/arifbd/LogUtil/master/screenshot/debug.png)          
+![alt text](https://raw.githubusercontent.com/arifbd/LogUtil/master/screenshot/debug.PNG)          
 
 
-![alt text](https://raw.githubusercontent.com/arifbd/LogUtil/master/screenshot/error.png)          
+![alt text](https://raw.githubusercontent.com/arifbd/LogUtil/master/screenshot/error.PNG)          
 
 
-![alt text](https://raw.githubusercontent.com/arifbd/LogUtil/master/screenshot/wtf.png)      
+![alt text](https://raw.githubusercontent.com/arifbd/LogUtil/master/screenshot/wtf.PNG)      
